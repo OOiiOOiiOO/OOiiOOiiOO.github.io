@@ -29,3 +29,17 @@ layout: compress
 
   </body>
 </html>
+
+
+<!-- _layouts/default.html (یا فایل layout اصلی) -->
+<!DOCTYPE html>
+<html
+  lang="{% if page.lang %}{{ page.lang }}{% else %}{{ site.default_lang }}{% endif %}"
+  dir="{% if page.lang == 'fa' %}rtl{% else %}ltr{% endif %}"
+>
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include masthead.html %}
+  <!-- ... -->

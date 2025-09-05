@@ -1,0 +1,23 @@
+/* assets/css/lang-switch.css */
+.lang-switch-wrapper {
+  display: inline-block;
+  margin-left: 1rem; /* adjust as needed */
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.08);
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: rgba(255,255,255,0.9);
+  transition: background 0.15s, box-shadow 0.15s;
+  color: inherit;
+}
+
+.lang-switch:hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  background: rgba(0,0,0,0.02);
+}

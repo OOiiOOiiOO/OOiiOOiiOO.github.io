@@ -24,3 +24,29 @@
     </div>
   </div>
 </div>
+
+<!-- _includes/masthead.html -->
+<!-- ... existing header markup ... -->
+
+<!-- Language switch (add this where appropriate) -->
+<div class="lang-switch-wrapper">
+  {% assign current_lang = page.lang | default: site.default_lang %}
+  <a id="lang-switch"
+     class="lang-switch"
+     href="#"
+     role="button"
+     aria-label="Switch language"
+     data-page-url="{{ page.url }}"
+     data-current-lang="{{ current_lang }}"
+     data-default-lang="{{ site.default_lang }}"
+     data-translation-url="{{ page.translation | default: '' }}">
+    <!-- نمایش متن/آیکون قابل تغییر -->
+    <span id="lang-switch-text">
+      {% if current_lang == 'fa' %}English{% else %}فارسی{% endif %}
+    </span>
+  </a>
+</div>
+
+<!-- include lang switch JS -->
+<script src="{{ '/assets/js/lang-switch.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="{{ '/assets/css/lang-switch.css' | relative_url }}">

@@ -355,3 +355,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# i18n basics
+languages:
+  - en
+  - fa
+
+default_lang: en 
