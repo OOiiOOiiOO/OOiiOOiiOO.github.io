@@ -44,6 +44,6 @@ alt_url: /teaching/ai/mp1
 ✅ **نکته برای دانشجویان:** این مینی‌پروژه نه تنها تمرین مفاهیم درس است بلکه به شما کمک می‌کند مجموعه‌ای از نوت‌بوک‌های ژوپایتر برای رزومه‌تان بسازید.  
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/hw2' | relative_url }}">⬅︎ قبلی: تکلیف ۲ </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/logic1' | relative_url }}">بعدی: گیت‌های منطقی با پرسپترون ➡︎</a>
+  <a class="btn btn--inverse" href="{{ '/teaching/ai-fa/hw2' | relative_url }}">⬅︎ قبلی: تکلیف ۲ </a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/logic1' | relative_url }}">بعدی: گیت‌های منطقی با پرسپترون ➡︎</a>
 </div>

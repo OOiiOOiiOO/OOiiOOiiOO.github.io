@@ -99,5 +99,11 @@ $$
 ---
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--primary" href="{{ '/teaching/ai/mathmaticalnl-fa' | relative_url }}">بعدی: مدل ریاضی نورون ➡︎</a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/schedule' | relative_url }}"> طرح درس و برنامه ریزی ➡︎</a>
+</div>
+
+
+
+<div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
+  <a class="btn btn--primary" href="{{'/teaching/ai-fa/mathmaticalnl' | relative_url }}">Next: مدل ریاضی یک نورون ➡︎</a>
 </div>

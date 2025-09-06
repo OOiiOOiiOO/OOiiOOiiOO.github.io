@@ -196,6 +196,6 @@ $$
 ## (اختیاری) دکمه‌های رفت و برگشت بین درس‌ها
 
 <div class="lesson-nav">
-  <a class="btn lesson-prev" href="{{ '/teaching/ai/logic-gates' | relative_url }}">◀︎ قبلی: پیاده‌سازی گیت‌های منطقی با پرسپترون</a>
-  <a class="btn lesson-next" href="{{ '/teaching/ai/xor-notebook' | relative_url }}">بعدی: XOR – نوت‌بوک ▶︎</a>
+  <a class="btn lesson-prev" href="{{ '/teaching/ai-fa/logic-gates' | relative_url }}">◀︎ قبلی: پیاده‌سازی گیت‌های منطقی با پرسپترون</a>
+  <a class="btn lesson-next" href="{{ '/teaching/ai-fa/xor-notebook' | relative_url }}">بعدی: XOR – نوت‌بوک ▶︎</a>
 </div>

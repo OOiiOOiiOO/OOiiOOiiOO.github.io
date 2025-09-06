@@ -130,6 +130,6 @@ $$
 ---
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/activation-functions-fa' | relative_url }}">⬅︎ قبلی: توابع فعال‌سازی </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/multi-class-fa' | relative_url }}">بعدی: طبقه‌بندی چندکلاسه ➡︎</a>
+  <a class="btn btn--inverse" href="{{ '/teaching/ai-fa/activationfunctions' | relative_url }}">⬅︎ قبلی: توابع فعال‌سازی </a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/anns' | relative_url }}">  مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANNs)  ➡︎</a>
 </div>

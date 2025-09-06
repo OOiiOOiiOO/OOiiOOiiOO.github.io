@@ -76,3 +76,8 @@ alt_url: /teaching/ai/schedule
 - امتحان پایان‌ترم در **هفته ۱۶** برگزار خواهد شد.  
 - همه تمرین‌ها و پروژه‌ها باید **تا پایان ترم** تحویل داده شوند.  
 - دانشجویان فعال می‌توانند از طریق مشارکت، پژوهش و فعالیت‌های عملی، نمره نهایی خود را به میزان قابل توجهی افزایش دهند.  
+
+
+<div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/introduction' | relative_url }}">Next: مقدمه‌ای بر شبکه‌های عصبی ➡︎</a>
+</div>

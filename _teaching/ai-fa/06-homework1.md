@@ -59,6 +59,6 @@ $$
 ---
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/anns-fa' | relative_url }}">⬅︎ قبلی: مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANNs) </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/hw2-fa' | relative_url }}">بعدی: تمرین ۲ ➡︎</a>
+  <a class="btn btn--inverse" href="{{ '/teaching/ai-fa/anns' | relative_url }}">⬅︎ قبلی: مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANNs) </a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/hw2' | relative_url }}">بعدی: تمرین ۲ ➡︎</a>
 </div>

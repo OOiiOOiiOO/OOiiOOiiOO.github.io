@@ -42,6 +42,6 @@ alt_url: /teaching/ai/hw2
 ---
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/hw1' | relative_url }}">⬅︎ قبلی: تمرین ۱ </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/hw2' | relative_url }}">بعدی: مینی پروژه ۱ ➡︎</a>
+  <a class="btn btn--inverse" href="{{ '/teaching/ai-fa/hw1' | relative_url }}">⬅︎ قبلی: تمرین ۱ </a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/mp1' | relative_url }}">بعدی: مینی پروژه ۱ ➡︎</a>
 </div>

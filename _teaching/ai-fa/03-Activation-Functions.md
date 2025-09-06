@@ -236,8 +236,12 @@ $$
 - **Softmax** برای خروجی‌های چندکلاسه استفاده می‌شود.  
 
 ---
+<div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/introduction' | relative_url }}">   مقدمه‌ای بر شبکه‌های عصبی  ➡︎</a>
+</div>
+
+
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/mathmaticalnl' | relative_url }}">⬅︎ قبلی: مدل ریاضی نورون </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/multi-class' | relative_url }}">بعدی: طبقه‌بندی چندکلاسه ➡︎</a>
+  <a class="btn btn--primary" href="{{'/teaching/ai-fa/activationfunctions' | relative_url }}">Next:  توابع فعال‌سازی در شبکه‌های عصبی   ➡︎</a>
 </div>

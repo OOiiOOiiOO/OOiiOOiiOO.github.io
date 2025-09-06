@@ -121,6 +121,6 @@ $$
 - در ادامه: با معرفی **شبکه‌های پرسپترون چندلایه (MLP)** خواهیم دید که چگونه می‌توانند مسئله XOR را حل کنند.  
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/mp1' | relative_url }}">⬅︎ قبلی: مینی‌پروژه ۱ </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/logic1' | relative_url }}">بعدی: تکلیف ۳ ➡︎</a>
+  <a class="btn btn--inverse" href="{{ '/teaching/ai-fa/mp1' | relative_url }}">⬅︎ قبلی: مینی‌پروژه ۱ </a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/logic1' | relative_url }}">بعدی: تکلیف ۳ ➡︎</a>
 </div>

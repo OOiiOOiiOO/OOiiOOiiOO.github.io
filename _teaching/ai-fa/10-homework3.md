@@ -48,6 +48,6 @@ $$
 ---
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/logic1' | relative_url }}">⬅︎ قبلی: گیت‌های منطقی با پرسپترون‌ها</a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/xor' | relative_url }}">بعدی: حل مسئله XOR با پرسپترون چندلایه ➡︎</a>
+  <a class="btn btn--inverse" href="{{ '/teaching/ai-fa/logic1' | relative_url }}">⬅︎ قبلی: گیت‌های منطقی با پرسپترون‌ها</a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai-fa/xor' | relative_url }}">بعدی: حل مسئله XOR با پرسپترون چندلایه ➡︎</a>
 </div>

@@ -130,6 +130,6 @@ $$
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
   <a class="btn btn--inverse" href="{{ '/teaching/ai/mp1' | relative_url }}">⬅︎ Previous: Mini project 1 </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/logic1' | relative_url }}">Next: Homework 3 ➡︎</a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai/hw3' | relative_url }}">Next: Homework 3 ➡︎</a>
 </div>
 
