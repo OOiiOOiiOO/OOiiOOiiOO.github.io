@@ -356,10 +356,3 @@ compress_html:
   ignore:
     envs: development
 
-
-# i18n basics
-languages:
-  - en
-  - fa
-
-default_lang: en 
