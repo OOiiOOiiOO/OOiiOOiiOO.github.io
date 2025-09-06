@@ -108,10 +108,7 @@ $$
 
 ---
 
-<div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--inverse" href="{{ '/teaching/ai/introduction-fa' | relative_url }}">⬅︎ قبلی: مقدمه‌ای بر شبکه‌های عصبی مصنوعی </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/activation-functions-fa' | relative_url }}">بعدی: توابع فعال‌سازی ➡︎</a>
-</div>
+
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
   <a class="btn btn--primary" href="{{ '/teaching/ai-fa/introduction' | relative_url }}">   مقدمه‌ای بر شبکه‌های عصبی  ➡︎</a>
