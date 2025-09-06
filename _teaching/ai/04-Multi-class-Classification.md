@@ -7,6 +7,7 @@ order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: en
 ---
 ---
 title: "Introduction to Artificial Neural Networks"

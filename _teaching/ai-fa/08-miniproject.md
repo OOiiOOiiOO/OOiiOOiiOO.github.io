@@ -1,12 +1,13 @@
 ---
 title: "مینی پروژه ۱"
 collection: teaching
-permalink: /teaching/ai/mp1
+permalink: /teaching/ai/mp1fa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # مینی پروژه (تحویل نوت‌بوک ژوپایتر)

@@ -1,12 +1,13 @@
 ---
 title: "مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANNs)"
 collection: teaching
-permalink: /teaching/ai/anns-fa
+permalink: /teaching/ai/annsfa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANNs)

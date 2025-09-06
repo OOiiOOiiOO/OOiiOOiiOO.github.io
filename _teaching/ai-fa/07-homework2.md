@@ -1,12 +1,13 @@
 ---
 title: "تمرین ۲"
 collection: teaching
-permalink: /teaching/ai/hw2
+permalink: /teaching/ai/hw2fa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # تمرین ۲ – توابع فعال‌سازی (همراه با پاسخ‌ها)

@@ -1,12 +1,13 @@
 ---
 title: "مقدمه‌ای بر شبکه‌های عصبی مصنوعی"
 collection: teaching
-permalink: /teaching/ai/introduction-fa
+permalink: /teaching/ai/introductionfa
 course: "هوش مصنوعی"
 order: 2
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # 📘 مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANN)

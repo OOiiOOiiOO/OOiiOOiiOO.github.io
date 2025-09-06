@@ -2,12 +2,13 @@
 title: "مقدمه‌ای بر شبکه‌های عصبی"
 collection: teaching
 type: "Course Module"
-#permalink: /teaching/ai/introduction-fa
+permalink: /teaching/ai/introductionfa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # مقدمه‌ای بر شبکه‌های عصبی

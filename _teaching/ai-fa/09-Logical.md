@@ -1,12 +1,13 @@
 ---
 title: "پیاده‌سازی گیت‌های منطقی با پرسپترون‌ها"
 collection: teaching
-permalink: /teaching/ai/logic1-fa
+permalink: /teaching/ai/logic1fa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # پیاده‌سازی گیت‌های منطقی با پرسپترون‌ها

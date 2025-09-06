@@ -1,12 +1,13 @@
 ---
 title: "تمرین ۳"
 collection: teaching
-permalink: /teaching/ai/hw3
+permalink: /teaching/ai/hw3fa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # تمرین – گیت‌های منطقی با پرسپترون‌ها

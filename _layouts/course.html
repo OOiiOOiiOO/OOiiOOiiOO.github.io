@@ -82,3 +82,12 @@ layout: default
     {% endif %}
   </main>
 </div>
+
+
+{%- comment -%} language switcher include {%- endcomment -%}
+{% include language-switcher.html %}
+
+<main>
+  <!-- existing content -->
+  {{ content }}
+</main>

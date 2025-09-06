@@ -1,12 +1,13 @@
 ---
 title: "توابع فعال‌سازی در شبکه‌های عصبی"
 collection: teaching
-permalink: /teaching/ai/activation-functions
+permalink: /teaching/ai/activationfunctionsfa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # توابع فعال‌سازی

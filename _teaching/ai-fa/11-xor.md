@@ -1,12 +1,13 @@
 ---
 title: "حل XOR با یک پرسپترون چندلایه (MLP)"
 collection: teaching
-permalink: /teaching/ai/xor
+permalink: /teaching/ai/xorfa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # حل XOR با یک پرسپترون چندلایه (MLP)

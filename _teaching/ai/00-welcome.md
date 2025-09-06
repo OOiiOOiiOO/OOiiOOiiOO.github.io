@@ -8,6 +8,7 @@ order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: en
 ---
 
 # 🧠 Artificial Intelligence (AI) – Course Outline

@@ -1,12 +1,13 @@
 ---
 title: "تمرین ۱"
 collection: teaching
-permalink: /teaching/ai/hw1-fa
+permalink: /teaching/ai/hw1fa
 course: "هوش مصنوعی"
 order: 1
 mathjax: true
 use_math: true
 layout: course
+lang: fa
 ---
 
 # تمرین ۱ – مقدمه‌ای بر شبکه‌های عصبی مصنوعی

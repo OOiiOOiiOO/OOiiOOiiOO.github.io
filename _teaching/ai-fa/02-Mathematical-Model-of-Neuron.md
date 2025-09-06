@@ -2,10 +2,11 @@
 title: "مدل ریاضی یک نورون"
 collection: teaching
 type: "Course Module"
-permalink: /teaching/ai/mathmaticalnl-fa
+permalink: /teaching/ai/mathmaticalnlfa
 course: "هوش مصنوعی"
 order: 1
 layout: course
+lang: fa
 ---
 
 نورون‌های مصنوعی، مدل‌های ریاضی ساده‌شده‌ای هستند که از نورون‌های زیستی الهام گرفته‌اند.  

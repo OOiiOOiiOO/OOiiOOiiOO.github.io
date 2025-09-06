@@ -6,6 +6,7 @@ permalink: /teaching/ai/mathmaticalnl
 course: "Artificial Intelligence"
 order: 1
 layout: course
+lang: en
 ---
 
 
