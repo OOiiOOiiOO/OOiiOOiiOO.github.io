@@ -1,24 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var btn = document.getElementById('lang-toggle');
+  var btn = document.getElementById('lang-switch');
   if (!btn) return;
 
-  var currentLang = btn.getAttribute('data-current-lang') || 'en';
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
 
-  btn.addEventListener('click', function () {
-    var pageUrl = btn.getAttribute('data-page-url') || window.location.pathname;
-    var translationUrl = btn.getAttribute('data-translation-url') || '';
+    var currentPath = window.location.pathname;
     var reLang = /^\/(fa|en)(\/|$)/;
     var newUrl = '';
 
-    if (translationUrl) {
-      newUrl = translationUrl;
-    } else if (reLang.test(pageUrl)) {
-      newUrl = pageUrl.replace(reLang, function (_, lang, sep) {
+    if (reLang.test(currentPath)) {
+      // اگر fa بود بکنش en و برعکس
+      newUrl = currentPath.replace(reLang, function (_, lang, sep) {
         return '/' + (lang === 'fa' ? 'en' : 'fa') + sep;
       });
     } else {
-      var opposite = (currentLang === 'fa') ? 'en' : 'fa';
-      newUrl = '/' + opposite + pageUrl;
+      // اگر هیچ پیشوندی نبود، پیش‌فرض ببر fa
+      newUrl = '/fa' + currentPath;
     }
 
     // پاک‌سازی // اضافی

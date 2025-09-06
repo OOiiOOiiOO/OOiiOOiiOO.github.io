@@ -6,9 +6,12 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
+          <!-- لوگوی سایت -->
           <li class="masthead__menu-item masthead__menu-item--lg persist">
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
+
+          <!-- منوی اصلی -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -20,22 +23,30 @@
             </li>
           {% endfor %}
 
-          <!-- دکمه‌ی دارک مود -->
+          <!-- دکمه Dark Mode -->
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon">
-              <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
+              <i id="theme-icon" class="fa-solid fa-sun"
+                 aria-hidden="true"
+                 title="toggle theme"></i>
             </a>
           </li>
 
-<li class="masthead__menu-item persist tail">
-  <button id="lang-toggle"
-          class="lang-toggle-btn"
-          data-current-lang="{{ page.lang | default: site.default_lang }}"
-          data-page-url="{{ page.url }}"
-          data-translation-url="{{ page.translation | default: '' }}">
-    <i class="fa-solid fa-globe"></i>
-    <span class="lang-label">
-      {% if page.lang == "fa" %}EN{% else %}FA{% endif %}
-    </span>
-  </button>
-</li>
+          <!-- دکمه Language Switch -->
+          <li class="masthead__menu-item persist tail">
+            <a id="lang-switch" class="lang-toggle-btn" href="/fa/">
+              <i class="fa-solid fa-globe"></i>
+              <span class="lang-label">FA</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<!-- فایل‌های مربوط به زبان -->
+<script src="{{ '/assets/js/lang-switch.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="{{ '/assets/css/lang-switch.css' | relative_url }}">
