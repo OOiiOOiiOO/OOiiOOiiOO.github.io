@@ -1,7 +1,7 @@
 ---
 title: زمان‌بندی
 course: AI
-lang: fa
-alt_lang: en
+lang: en
+alt_lang: fa
 alt_url: /teaching/ai/scheduleen
 ---
