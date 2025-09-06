@@ -1,6 +1,7 @@
 {% assign current_path = page.path %}
 {% assign current_url = page.url %}
 {% assign is_fa = current_path contains '/ai-fa/' %}
+{% assign is_en = current_path contains '/ai/' %}
 
 <div class="lang-switcher">
   {% if is_fa %}
@@ -8,7 +9,7 @@
     <a class="btn" href="{{ current_url | replace:'/ai-fa/','/ai/' | relative_url }}">
       English Version
     </a>
-  {% else %}
+  {% elif is_en %}
     <!-- الان نسخه انگلیسی هست -->
     <a class="btn" href="{{ current_url | replace:'/ai/','/ai-fa/' | relative_url }}">
       نسخه فارسی
