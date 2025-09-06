@@ -9,6 +9,8 @@ mathjax: true
 use_math: true
 layout: course
 lang: fa
+alt_lang: fa
+alt_url: /teaching/ai/introduction
 ---
 
 # مقدمه‌ای بر شبکه‌های عصبی
