@@ -1,0 +1,176 @@
+---
+layout: archive
+permalink: /student-effortfa/
+author_profile: true
+---
+
+{% include language-switcher.html %}
+{% include base_path %}
+
+
+{% for post in site.Student-Effort %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<div class="student-effort" dir="rtl" style="text-align: right; font-family: Vazir, Tahoma, Arial, sans-serif; line-height: 1.8;">
+  <h1>خوش‌آمدید به <strong>تلاش دانشجویی</strong> ✨</h1>
+
+  <p>
+    این بخش به نمایش خلاقیت، پشتکار و دستاوردهای علمی دانشجویان اختصاص دارد.
+  </p>
+
+  <p>
+    هر پروژه، مقاله و ایده‌ای که در اینجا به اشتراک گذاشته می‌شود، تنها یک وظیفه‌ی درسی نیست — بلکه گامی است در جهت ساختن یک پروفایل علمی قدرتمند و بر جای گذاشتن اثری ماندگار در حوزه‌ی هوش مصنوعی و علوم کامپیوتر.
+  </p>
+
+  <h2>با مشارکت در این فضا، شما می‌توانید:</h2>
+  <ul>
+    <li><strong>رزومه و سوابق علمی</strong> خود را با پروژه‌ها و دستاوردهای واقعی تقویت کنید.</li>
+    <li>در دروسی که تلاش شما ارائه می‌شود، <strong>امتیاز اضافی و تقدیر</strong> دریافت کنید.</li>
+    <li>فرصت‌هایی برای <strong>همکاری مستمر</strong> در مقالات پژوهشی، پروژه‌ها و کنفرانس‌ها با اساتید و هم‌کلاسی‌ها ایجاد کنید.</li>
+    <li><strong>الهام‌بخش دانشجویان آینده</strong> باشید و بخشی از یک جامعه‌ی علمی در حال رشد در <em>دانشگاه مارلیک</em> شوید.</li>
+  </ul>
+
+  <p>
+    به یاد داشته باشید، تلاش شما در اینجا چیزی فراتر از یک نمره است — این یک <strong>سرمایه‌گذاری برای آینده‌ی شغلی شما</strong> است.  
+    با هم می‌توانیم یادگیری در کلاس را به پژوهشی معنادار، انتشارات اثرگذار و رشد حرفه‌ای تبدیل کنیم.
+  </p>
+
+  <p>
+    پس بیایید شروع کنیم. ایده‌ها، سخت‌کوشی و اشتیاق شما شایسته‌ی دیده‌شدن، به‌اشتراک‌گذاری و جشن گرفتن است! 🚀
+  </p>
+</div>
+
+
+<style>
+.student-effort {
+  margin: 2rem 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--global-text-color);
+}
+
+.student-effort h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--global-heading-color);
+}
+
+.student-effort h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: var(--global-heading-color);
+}
+
+.student-effort ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.student-effort li {
+  margin-bottom: 0.6rem;
+}
+
+.student-effort strong {
+  color: #0ea1c5; /* رنگ آبی لینک‌هایت */
+}
+</style>
+
+
+<div class="student-effort-projects">
+
+  <!-- 🔹 بلوک ۱ -->
+  <div class="student-card">
+    <img src="/images/students/student1.jpg" alt="Student 1">
+    <div class="student-info">
+      <h3>Project Title: Intelligent Chatbot</h3>
+      <p>
+        Developed a chatbot using Python and NLP libraries to assist students in finding course materials and answering FAQs.
+      </p>
+      <a href="/files/student1_project.pdf" target="_blank">📄 View Project</a>
+    </div>
+  </div>
+
+  <!-- 🔹 بلوک ۲ -->
+  <div class="student-card">
+    <img src="/images/students/student2.jpg" alt="Student 2">
+    <div class="student-info">
+      <h3>Research Paper: Image Recognition with CNN</h3>
+      <p>
+        A paper on applying convolutional neural networks for real-time image classification tasks.
+      </p>
+      <a href="/files/student2_paper.pdf" target="_blank">📄 Read Paper</a>
+    </div>
+  </div>
+
+  <!-- 🔹 بلوک ۳ -->
+  <div class="student-card">
+    <img src="/images/students/student3.jpg" alt="Student 3">
+    <div class="student-info">
+      <h3>Team Project: Real-Time Scheduling Simulator</h3>
+      <p>
+        A collaborative project building a simulator to visualize real-time scheduling algorithms.
+      </p>
+      <a href="/files/student3_project.zip" target="_blank">📥 Download Project</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.student-effort-projects {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.student-card {
+  display: flex;
+  align-items: flex-start;
+  background: var(--global-bg-color);
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+.student-card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.student-info {
+  flex: 1;
+}
+
+.student-info h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.2rem;
+  color: var(--global-heading-color);
+}
+
+.student-info p {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+}
+
+.student-info a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #0ea1c5;
+}
+.student-info a:hover {
+  text-decoration: underline;
+}
+</style>
