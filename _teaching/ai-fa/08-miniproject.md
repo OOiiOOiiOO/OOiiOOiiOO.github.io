@@ -1,7 +1,7 @@
 ---
 title: "مینی پروژه ۱"
 collection: teaching
-permalink: /teaching/ai-fa/mp1fa
+permalink: /teaching/ai-fa/mp1
 course: "هوش مصنوعی"
 order: 1
 mathjax: true

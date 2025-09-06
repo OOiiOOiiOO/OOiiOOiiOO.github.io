@@ -1,7 +1,7 @@
 ---
 title: "تمرین ۲"
 collection: teaching
-permalink: /teaching/ai-fa/hw2fa
+permalink: /teaching/ai-fa/hw2
 course: "هوش مصنوعی"
 order: 1
 mathjax: true

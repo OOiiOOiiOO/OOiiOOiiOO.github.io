@@ -1,7 +1,7 @@
 ---
 title: "پیاده‌سازی گیت‌های منطقی با پرسپترون‌ها"
 collection: teaching
-permalink: /teaching/ai-fa/logic1fa
+permalink: /teaching/ai-fa/logic1
 course: "هوش مصنوعی"
 order: 1
 mathjax: true

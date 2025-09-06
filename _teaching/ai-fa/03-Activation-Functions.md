@@ -1,7 +1,7 @@
 ---
 title: "توابع فعال‌سازی در شبکه‌های عصبی"
 collection: teaching
-permalink: /teaching/ai-fa/activationfunctionsfa
+permalink: /teaching/ai-fa/activationfunctions
 course: "هوش مصنوعی"
 order: 1
 mathjax: true

@@ -2,7 +2,7 @@
 title: "مدل ریاضی یک نورون"
 collection: teaching
 type: "Course Module"
-permalink: /teaching/ai-fa/mathmaticalnlfa
+permalink: /teaching/ai-fa/mathmaticalnl
 course: "هوش مصنوعی"
 order: 1
 layout: course
