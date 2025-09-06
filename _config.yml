@@ -6,7 +6,7 @@ title_separator: "-"
 name           : &name "Mohammad Mahdi Khorsand Aalam"
 description    : &description "Marlik University lecturer (Computer Engineering Department)"
 url            : "https://ooiiooiioo.github.io"
-baseurl        : "" # چون پروژه روی user.github.io هست، خالی باشه
+baseurl        : "" 
 repository     : "https://github.com/OOiiOOiiOO/OOiiOOiiOO.github.io"
 
 # -------------------------
@@ -14,12 +14,13 @@ repository     : "https://github.com/OOiiOOiiOO/OOiiOOiiOO.github.io"
 # -------------------------
 languages: ["en", "fa"]
 default_lang: "en"
+exclude_from_localizations: ["assets", "Gemfile", "Gemfile.lock", "node_modules", "vendor"]
 
 # -------------------------
 # Author Profile
 # -------------------------
 author:
-  avatar     : "myphoto.jpeg"
+  avatar     : "/assets/images/myphoto.jpeg"
   name       : "Mohammad Mahdi Khorsand Aalam"
   bio        : "Marlik University lecturer (Computer Engineering Department)"
   location   : "Iran, Mazandaran , Nowshahr"
