@@ -2,7 +2,7 @@
 title: "Course Outline and Weekly Schedule"
 collection: teaching
 type: "Course Module"
-permalink: /teaching/ai/scheduleen
+permalink: /teaching/ai/schedule
 course: "Artificial Intelligence"
 order: 1
 mathjax: true
