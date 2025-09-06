@@ -9,7 +9,7 @@ mathjax: true
 use_math: true
 layout: course
 lang: en
-alt_lang: fa
+alt_lang: en
 alt_url: /teaching/ai-fa/schedule
 ---
 
