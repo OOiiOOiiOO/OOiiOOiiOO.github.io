@@ -9,41 +9,35 @@ redirect_from:
   - /about.html
 ---
 
-<div dir="rtl" align="right">
 
-### دانشجویان عزیز 🌱  
 
-این وب‌سایت برای حمایت از مسیر یادگیری شما و به‌عنوان منبعی مطمئن از منابع علمی ایجاد شده است.  
-در اینجا می‌توانید جزوات درسی، منابع تکمیلی، نقشه‌های مطالعه و مطالب مرتبط با کلاس‌هایی که با من دارید را پیدا کنید.  
+Dear students, 🌱  
 
-اما هدف این پلتفرم فقط ارائه‌ی منابع نیست. من باور دارم که یادگیری واقعی از طریق **همکاری، پژوهش و مشارکت فعال** شکل می‌گیرد.  
-با به‌اشتراک‌گذاری دانش، مشارکت در پروژه‌های تحقیقاتی و نگارش مقالات مشترک، شما نه‌تنها می‌توانید **نتایج بهتری در دروس خود کسب کنید**، بلکه یک **رزومه‌ی علمی و حرفه‌ای قوی** نیز بسازید.  
+This website has been created to support your learning journey and to serve as a reliable source of academic resources. Here you will find lecture notes, references, study roadmaps, and course-related materials for the classes you take with me.  
+
+But this platform is not just about providing materials. I strongly believe that true learning happens through collaboration, research, and active participation. By contributing to knowledge sharing, engaging in research projects, and co-authoring papers, you can not only achieve **better results in your courses**, but also **build a strong academic and professional résumé**.  
 
 ---
 
-### چشم‌انداز علمی  
-در گروه مهندسی کامپیوتر دانشگاه مارلیک، چشم‌انداز من ایجاد محیطی پویا و الهام‌بخش است که در آن:  
-- دانشجویان فراتر از کتاب‌های درسی حرکت کنند،  
-- پروژه‌های پژوهشی به فرصت‌های واقعی تبدیل شوند،  
-- و رشد علمی از طریق کار تیمی و همکاری محقق شود.  
+### Academic Vision
+Within the Computer Engineering Department at Marlik University, my vision is to create a dynamic and inspiring environment where:  
+- students move beyond textbooks,  
+- research projects become real opportunities,  
+- and academic growth is achieved through teamwork and collaboration.  
 
 ---
 
-### دعوت  
-من صمیمانه از شما دعوت می‌کنم که ایده‌ها، پروژه‌ها و انرژی خود را به این مسیر علمی مشترک بیاورید.  
-هدف ما تنها گذراندن واحدهای درسی نیست، بلکه ساختن آینده‌ای است که در آن **دانش علمی و مهارت‌های پژوهشی شما به دارایی‌های ماندگار تبدیل شود**.  
+### An Invitation
+I warmly invite you to bring your ideas, projects, and energy to this shared academic journey. Our goal is not only to pass courses, but to shape a future where **your scientific knowledge and research skills become lasting assets**.  
 
 ---
 
-### سخن پایانی  
-از اینکه بخشی از این مسیر هستید سپاسگزارم.  
-امیدوارم این وب‌سایت هم به‌عنوان یک منبع آموزشی و هم به‌عنوان منبعی برای انگیزه و الهام، همراه شما باشد.  
+### Closing
+Thank you for being part of this path. I hope this website will serve as both an informative resource and a source of motivation for you.  
 
-با بهترین آرزوها،  
+With best regards,  
 
-**محمدمهدی خرسند اعلم**  
+**Mohammad Mahdi Khorsand Aalam**  
 
-مدرس مهندسی کامپیوتر  
-دانشگاه مارلیک نوشهر  
-
-</div>
+Lecturer of Computer Engineering  
+Marlik University of Nowshahr
