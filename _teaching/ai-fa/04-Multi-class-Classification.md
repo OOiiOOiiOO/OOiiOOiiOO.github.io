@@ -9,7 +9,7 @@ use_math: true
 layout: course
 lang: fa
 alt_lang: en
-alt_url: /teaching/ai/multiclass
+alt_url: /teaching/ai/multi-class
 ---
 
 # 📘 مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANN)

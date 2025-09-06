@@ -9,7 +9,7 @@ use_math: true
 layout: course
 lang: fa
 alt_lang: en
-alt_url: /teaching/ai/activationfunctions
+alt_url: /teaching/ai/activation-functions
 ---
 
 # توابع فعال‌سازی
