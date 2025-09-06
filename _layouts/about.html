@@ -43,7 +43,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% include language-switcher.html %}
+        
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
@@ -59,7 +59,7 @@ layout: default
 
       {% include post_pagination.html %}
     </div>
-
+    {% include language-switcher.html %}
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
