@@ -2,7 +2,7 @@
 title: "طرح درس و برنامه ریزی"
 collection: teaching
 type: "Course Module"
-permalink: /teaching/ai/schedulefa
+permalink: /teaching/ai-fa/schedulefa
 course: "Artificial Intelligence"
 order: 1
 mathjax: true

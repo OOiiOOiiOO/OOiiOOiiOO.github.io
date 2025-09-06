@@ -7,6 +7,8 @@ course: "Artificial Intelligence"
 order: 1
 layout: course
 lang: en
+alt_lang: fa
+alt_url: /teaching/ai-fa/schedulefa
 ---
 
 

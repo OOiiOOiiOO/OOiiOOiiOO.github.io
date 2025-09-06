@@ -9,6 +9,8 @@ mathjax: true
 use_math: true
 layout: course
 lang: en
+alt_lang: fa
+alt_url: /teaching/ai-fa/schedulefa
 ---
 
 # 🧠 Artificial Intelligence (AI) – Course Outline
