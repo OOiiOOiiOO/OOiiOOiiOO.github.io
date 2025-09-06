@@ -8,6 +8,8 @@ mathjax: true
 use_math: true
 layout: course
 lang: en
+alt_lang: fa
+alt_url: /teaching/ai-fa/anns
 ---
 # Introduction to Artificial Neural Networks (ANNs)
 

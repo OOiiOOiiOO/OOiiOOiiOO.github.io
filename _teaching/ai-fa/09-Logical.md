@@ -8,6 +8,8 @@ mathjax: true
 use_math: true
 layout: course
 lang: fa
+alt_lang: en
+alt_url: /teaching/ai/logic1
 ---
 
 # پیاده‌سازی گیت‌های منطقی با پرسپترون‌ها

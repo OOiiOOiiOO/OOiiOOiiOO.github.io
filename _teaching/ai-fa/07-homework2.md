@@ -8,6 +8,8 @@ mathjax: true
 use_math: true
 layout: course
 lang: fa
+alt_lang: en
+alt_url: /teaching/ai/hw2
 ---
 
 # تمرین ۲ – توابع فعال‌سازی (همراه با پاسخ‌ها)

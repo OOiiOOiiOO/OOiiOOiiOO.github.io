@@ -7,6 +7,8 @@ course: "هوش مصنوعی"
 order: 1
 layout: course
 lang: fa
+alt_lang: en
+alt_url: /teaching/ai/mathmaticalnl
 ---
 
 نورون‌های مصنوعی، مدل‌های ریاضی ساده‌شده‌ای هستند که از نورون‌های زیستی الهام گرفته‌اند.  

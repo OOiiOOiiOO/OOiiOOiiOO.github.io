@@ -8,6 +8,8 @@ mathjax: true
 use_math: true
 layout: course
 lang: fa
+alt_lang: en
+alt_url: /teaching/ai/anns
 ---
 
 # مقدمه‌ای بر شبکه‌های عصبی مصنوعی (ANNs)

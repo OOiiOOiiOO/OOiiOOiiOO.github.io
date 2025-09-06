@@ -8,6 +8,8 @@ mathjax: true
 use_math: true
 layout: course
 lang: fa
+alt_lang: en
+alt_url: /teaching/ai/mp1
 ---
 
 # مینی پروژه (تحویل نوت‌بوک ژوپایتر)

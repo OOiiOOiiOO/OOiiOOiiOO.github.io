@@ -10,7 +10,7 @@ use_math: true
 layout: course
 lang: en
 alt_lang: fa
-alt_url: /teaching/ai-fa/schedulefa
+alt_url: /teaching/ai-fa/schedule
 ---
 
 # 🧠 Artificial Intelligence (AI) – Course Outline
