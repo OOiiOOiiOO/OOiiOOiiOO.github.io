@@ -75,3 +75,8 @@ alt_url: /teaching/ai-fa/schedule
 - Final exam will be held in **Week 16**.  
 - Homework and projects should be submitted **before the end of the semester**.  
 - Active students can significantly increase their final grade through participation and research.  
+
+
+<div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
+  <a class="btn btn--primary" href="{{'/teaching/ai/introduction' | relative_url }}">Next: Homework 2 ➡︎</a>
+</div>

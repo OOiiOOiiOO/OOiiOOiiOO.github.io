@@ -100,5 +100,5 @@ Since the weighted sum alone is linear, we need an activation function to introd
 
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--primary" href="{{ '/teaching/ai/mathmaticalnl' | relative_url }}">Next: Mathematical Model of a Neuron ➡︎</a>
+  <a class="btn btn--primary" href="{{'/teaching/ai/mathmaticalnl' | relative_url }}">Next: Mathematical Model of a Neuron ➡︎</a>
 </div>
