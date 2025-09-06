@@ -37,12 +37,29 @@ layout: default
   .breadcrumb { font-size: .85rem; margin-bottom: 1rem; color: #aaa; }
   .breadcrumb a { text-decoration: none; color: #0ea1c5; }
   .breadcrumb a:hover { text-decoration: underline; }
+
+  .lang-switcher {
+    margin-bottom: 1rem;
+  }
+  .lang-switcher .btn {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background: #0ea1c5;
+    color: #fff !important;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .lang-switcher .btn:hover {
+    background: #0c8bab;
+  }
 </style>
 
 {% assign all_modules = site.teaching | where: "course", page.course | sort: "order" %}
 
 <div class="course-wrapper">
-  <!-- Sidebar: فقط سرفصل‌های همین course -->
+  <!-- Sidebar -->
   <aside class="course-sidebar">
     <h3>{{ page.course }}</h3>
     <ul>
@@ -67,9 +84,10 @@ layout: default
     </nav>
     {% endunless %}
 
+    {% include language-switcher.html %}
+
     {{ content }}
 
-    <!-- فقط وقتی Outline هست: لیست ماژول‌ها -->
     {% if page.outline %}
       <h3>Course Modules</h3>
       <ul>
@@ -82,12 +100,3 @@ layout: default
     {% endif %}
   </main>
 </div>
-
-
-{%- comment -%} language switcher include {%- endcomment -%}
-{% include language-switcher.html %}
-
-<main>
-  <!-- existing content -->
-  {{ content }}
-</main>
