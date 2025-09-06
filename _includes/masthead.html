@@ -27,24 +27,15 @@
             </a>
           </li>
 
-{% assign current_lang = page.lang | default: site.default_lang %}
-<li id="lang-toggle-li" class="masthead__menu-item persist tail">
-  <label class="lang-switch">
-    <input
-      type="checkbox"
-      id="lang-toggle-input"
-      data-base="{{ base_path }}"
-      data-page-url="{{ page.url }}"
-      data-current-lang="{{ current_lang }}"
-      data-default-lang="{{ site.default_lang }}"
-      data-translation-url="{{ page.translation | default: '' | relative_url }}"
-      {% if current_lang == 'en' %}checked{% endif %}
-    >
-    <span class="slider">
-      <span class="flag fa">FA</span>
-      <span class="flag en">EN</span>
+<li class="masthead__menu-item persist tail">
+  <button id="lang-toggle"
+          class="lang-toggle-btn"
+          data-current-lang="{{ page.lang | default: site.default_lang }}"
+          data-page-url="{{ page.url }}"
+          data-translation-url="{{ page.translation | default: '' }}">
+    <i class="fa-solid fa-globe"></i>
+    <span class="lang-label">
+      {% if page.lang == "fa" %}EN{% else %}FA{% endif %}
     </span>
-  </label>
+  </button>
 </li>
-
-<script src="{{ '/assets/js/lang-switch.js' | relative_url }}" defer></script>
