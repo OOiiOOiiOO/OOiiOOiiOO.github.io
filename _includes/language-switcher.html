@@ -9,7 +9,7 @@
     <a class="btn" href="{{ current_url | replace:'/ai-fa/','/ai/' | relative_url }}">
       English Version
     </a>
-  {% elif is_en %}
+  {% if is_en %}
     <!-- الان نسخه انگلیسی هست -->
     <a class="btn" href="{{ current_url | replace:'/ai/','/ai-fa/' | relative_url }}">
       نسخه فارسی
