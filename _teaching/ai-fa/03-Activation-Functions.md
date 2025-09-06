@@ -243,5 +243,5 @@ $$
 
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
-  <a class="btn btn--primary" href="{{'/teaching/ai-fa/activationfunctions' | relative_url }}">Next:  توابع فعال‌سازی در شبکه‌های عصبی   ➡︎</a>
+  <a class="btn btn--primary" href="{{'/teaching/ai-fa/multiclass' | relative_url }}">Next:  توابع فعال‌سازی در شبکه‌های عصبی   ➡︎</a>
 </div>
