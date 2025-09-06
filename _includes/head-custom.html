@@ -1,0 +1,61 @@
+<!-- _includes/head-custom.html -->
+<style>
+.lang-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #007acc;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: background 0.3s ease;
+  z-index: 9999;
+}
+
+.lang-switch:hover {
+  background: #005f99;
+}
+</style>
+
+<a href="#" id="lang-switch" class="lang-switch">FA</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var btn = document.getElementById('lang-switch');
+  if (!btn) return;
+
+  var currentPath = window.location.pathname;
+  var reLang = /^\/(fa|en)(\/|$)/;
+
+  if (reLang.test(currentPath)) {
+    // اگه fa باشه دکمه رو EN کن
+    if (currentPath.startsWith("/fa")) {
+      btn.textContent = "EN";
+    } else {
+      btn.textContent = "FA";
+    }
+  } else {
+    // پیش‌فرض بذار FA
+    btn.textContent = "FA";
+  }
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    var newUrl = "";
+
+    if (reLang.test(currentPath)) {
+      newUrl = currentPath.replace(reLang, function (_, lang, sep) {
+        return '/' + (lang === 'fa' ? 'en' : 'fa') + sep;
+      });
+    } else {
+      newUrl = '/fa' + currentPath;
+    }
+
+    window.location.href = newUrl.replace(/\/{2,}/g, '/');
+  });
+});
+</script>
