@@ -1,36 +1,17 @@
-{%- comment -%}
-Language switcher for teaching collection.
-It tries these methods in order:
-  1) If page.data.translation_of or translation_key is set -> use that target
-  2) Else: find a doc in site.teaching.docs with same filename (basename) and different lang
-{%- endcomment -%}
+{% assign current_path = page.path %}
+{% assign current_url = page.url %}
+{% assign is_fa = current_path contains '/ai-fa/' %}
 
-{%- assign switch_target = nil -%}
-
-{%- if page.translation_of %}
-  {%- assign target_url = page.translation_of -%}
-  {%- assign switch_target = target_url -%}
-{%- endif -%}
-
-{%- if switch_target == nil %}
-  {%- assign current_name = page.path | split: '/' | last -%}
-  {%- for doc in site.teaching.docs -%}
-    {%- assign doc_name = doc.path | split: '/' | last -%}
-    {%- if doc_name == current_name and doc.url != page.url -%}
-      {%- assign switch_target = doc.url -%}
-      {%- assign switch_lang = doc.lang | default: doc.data.lang -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endif -%}
-
-{%- if switch_target %}
-  <div class="lang-switcher" style="margin-bottom:1rem;">
-    {% comment %} show Persian or English label based on target lang or current page lang {% endcomment %}
-    {%- if page.lang == "fa" or page.data.lang == "fa" -%}
-      <a href="{{ switch_target | relative_url }}" class="btn">English</a>
-    {%- else -%}
-      <a href="{{ switch_target | relative_url }}" class="btn">نسخهٔ فارسی</a>
-    {%- endif -%}
-  </div>
-{%- endif -%}
+<div class="lang-switcher">
+  {% if is_fa %}
+    <!-- الان نسخه فارسی هستی -->
+    <a class="btn" href="{{ current_url | replace:'/ai-fa/','/ai/' | relative_url }}">
+      English Version
+    </a>
+  {% else %}
+    <!-- الان نسخه انگلیسی هستی -->
+    <a class="btn" href="{{ current_url | replace:'/ai/','/ai-fa/' | relative_url }}">
+      نسخه فارسی
+    </a>
+  {% endif %}
+</div>
