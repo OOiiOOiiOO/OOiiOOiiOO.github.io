@@ -47,8 +47,6 @@ alt_url: /teaching/rts/core-schedulers
 6. EDF — Earliest Deadline First  
 7. LLF — Least Laxity First  
 
-حالا تک‌تک را با مثال و توضیح می‌زنیم.
-
 ---
 
 ## ۱ — FCFS (First Come First Served)
