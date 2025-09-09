@@ -42,7 +42,7 @@ author_profile: true
 </div>
 
 <p style="margin-top: 15px;">
-  <a class="btn btn--primary" href="/files/student-project-guidelines.ipynb" download>
+  <a class="btn btn--primary" href="/files/ject-guidelines.ipynb" download>
     ⬇️ Download Notebook English Version
   </a>
 </p>
