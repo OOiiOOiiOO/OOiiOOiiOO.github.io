@@ -17,6 +17,7 @@ alt_url: /teaching/ai/xor
 تابع **XOR** (یا «یاگر انحصاری») زمانی مقدار 1 برمی‌گرداند که **دقیقاً یکی** از ورودی‌ها برابر 1 باشد، و در غیر این صورت مقدار 0.  
 این تابع یک مثال کلاسیک است از مسئله‌ای که یک **پرسپترون تکی نمی‌تواند حل کند**، اما یک **MLP با یک لایه پنهان** قادر به حل آن است.
 
+![XOR table](/images/ai19.png)
 ---
 
 ## 1) جدول درستی XOR
@@ -48,8 +49,10 @@ $$
 در XOR، نقاط مثبت $$(0,1)$$ و $$(1,0)$$ در دو گوشه مقابل قرار دارند، در حالی که نقاط منفی $$(0,0)$$ و $$(1,1)$$ در دو گوشه دیگر هستند.  
 هیچ خط مستقیمی وجود ندارد که بتواند نقاط مثبت و منفی را از هم جدا کند.
 
-![Not linearly separable](/images/ai/xor/not_linearly_separable.png)  
+![Not linearly separable](/images/ai13.webp)   
 *شکل: داده‌های XOR با یک خط قابل جداسازی نیستند.*
+
+![Not linearly separable](/images/ai14.png)  
 
 ---
 
@@ -74,7 +77,7 @@ $$
 
 این دقیقاً یک **MLP با دو نورون پنهان** است (پنهان: $$h_1, h_2$$؛ خروجی: $$y$$).
 
-![MLP architecture](/images/ai/xor/mlp_arch.png)  
+![MLP architecture](/images/ai15.png)    
 *شکل: معماری MLP با دو نورون پنهان.*
 
 ---
@@ -105,7 +108,7 @@ $$
 
 با بررسی هر چهار ورودی $$(0,0), (0,1), (1,0), (1,1)$$ مشاهده می‌کنیم که خروجی دقیقاً مطابق XOR است.
 
-![Hidden regions](/images/ai/xor/hidden_regions.png)  
+![Hidden regions](/images/ai16.png) 
 *شکل: نورون‌های پنهان فضای ورودی را به نواحی مختلف تقسیم می‌کنند.*
 
 ---
@@ -150,9 +153,10 @@ $$
 به‌طور مشابه، برای ورودی‌های $$(0,1)$$ خروجی 1 و برای $$(0,0)$$ و $$(1,1)$$ خروجی 0 خواهد بود.  
 (وزن‌های بزرگ باعث می‌شوند سیگموید رفتاری شبیه گیت منطقی داشته باشد.)
 
-![Forward pass](/images/ai/xor/forward_pass.png)  
+![Forward pass](/images/ai17.png)   
 *شکل: محاسبات گذر رو به جلو در شبکه XOR.*
 
+![XOR table](/images/ai20.jpg)
 ---
 
 ## 6) طرح کلی آموزش (یادگیری وزن‌ها)
@@ -173,6 +177,7 @@ $$
 
 سپس با **گرادیان کاهشی و پس‌انتشار خطا (Backpropagation)** آموزش داده می‌شود تا مدل همگرا شود.
 
+![Forward pass](/images/ai18.png)  
 ---
 
 ## 7) نکات کلیدی
@@ -181,19 +186,10 @@ $$
 - یک MLP با **یک لایه پنهان و دو نورون** می‌تواند XOR را حل کند.  
 - با سیگموید و وزن‌های بزرگ می‌توان رفتار منطقی را تقریب زد؛ با آموزش نیز مدل می‌تواند این پارامترها را بیاموزد.  
 
----
-
-## (اختیاری) محل قرار دادن تصاویر
-
-- جدول درستی: `![XOR table](/images/ai/xor/xor_table.png)`  
-- غیرقابل جداسازی خطی: `![Not linearly separable](/images/ai/xor/not_linearly_separable.png)`  
-- معماری شبکه: `![MLP architecture](/images/ai/xor/mlp_arch.png)`  
-- نواحی تصمیم نورون‌های پنهان: `![Hidden regions](/images/ai/xor/hidden_regions.png)`  
-- گذر رو به جلو: `![Forward pass](/images/ai/xor/forward_pass.png)`  
+ 
 
 ---
 
-## (اختیاری) دکمه‌های رفت و برگشت بین درس‌ها
 
 <div class="lesson-nav">
   <a class="btn lesson-prev" href="{{ '/teaching/ai-fa/logic-gates' | relative_url }}">◀︎ قبلی: پیاده‌سازی گیت‌های منطقی با پرسپترون</a>
