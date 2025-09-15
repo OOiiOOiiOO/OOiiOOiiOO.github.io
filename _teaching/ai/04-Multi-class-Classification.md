@@ -9,7 +9,7 @@ use_math: true
 layout: course
 lang: en
 alt_lang: fa
-alt_url: /teaching/ai-fa/multiclass
+alt_url: /teaching/ai-fa/multi-class
 ---
 ---
 title: "Introduction to Artificial Neural Networks"
