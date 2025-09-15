@@ -7,7 +7,7 @@ course: "Real-Time Systems"
 order: 10
 mathjax: true
 use_math: true
-layout: course
+layout: courserst
 lang: en
 alt_lang: fa
 alt_url: /teaching/rts-fa/projects

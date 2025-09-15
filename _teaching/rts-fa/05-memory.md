@@ -7,7 +7,7 @@ course: "سیستم‌های بلادرنگ"
 order: 4
 mathjax: true
 use_math: true
-layout: course
+layout: courserst
 lang: fa
 alt_lang: en
 alt_url: /teaching/rts/memory-management

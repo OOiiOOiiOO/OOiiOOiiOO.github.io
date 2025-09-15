@@ -7,7 +7,7 @@ course: "سیستم‌های بلادرنگ"
 order: 2
 mathjax: true
 use_math: true
-layout: course
+layout: courserst
 lang: fa
 alt_lang: en
 alt_url: /teaching/rts/real-time-os
