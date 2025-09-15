@@ -1,0 +1,20 @@
+{% assign current_path = page.path %}
+{% assign current_url = page.url %}
+{% assign is_fa = current_path contains '/ts-fa/' %}
+{% assign is_en = current_path contains '/rts/' %}
+
+<div class="lang-switcher">
+  {% if is_fa %}
+    <!-- الان نسخه فارسی هست -->
+    <a class="btn" href="{{ current_url | replace:'/ts-fa/','/rts/' | relative_url }}">
+      English Version
+    </a>
+  {% endif %}
+  
+  {% if is_en %}
+    <!-- الان نسخه انگلیسی هست -->
+    <a class="btn" href="{{ current_url | replace:'/rts/','/ts-fa/' | relative_url }}">
+      نسخه فارسی
+    </a>
+  {% endif %}
+</div>
