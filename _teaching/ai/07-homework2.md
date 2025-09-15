@@ -46,5 +46,5 @@ Why is ReLU often preferred in deep neural networks over Sigmoid or Tanh?
 
 <div class="lesson-nav" style="display:flex; justify-content:space-between; margin-top:2em;">
   <a class="btn btn--inverse" href="{{ '/teaching/ai/hw1' | relative_url }}">⬅︎ Previous: Homework 1 </a>
-  <a class="btn btn--primary" href="{{ '/teaching/ai/hw2' | relative_url }}">Next: Mini Project 1 ➡︎</a>
+  <a class="btn btn--primary" href="{{ '/teaching/ai/mp1' | relative_url }}">Next: Mini Project 1 ➡︎</a>
 </div>
