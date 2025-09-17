@@ -2,7 +2,7 @@
 title: "Syllabus and Weekly Schedule"
 collection: teaching
 type: "Course Module"
-permalink: /teaching/rts/schedule
+permalink: /teaching/rts-fa/schedule
 course: "Real-Time Systems"
 order: 1
 mathjax: true
