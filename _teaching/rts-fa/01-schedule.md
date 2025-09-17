@@ -7,10 +7,10 @@ course: "Real-Time Systems"
 order: 1
 mathjax: true
 use_math: true
-layout: course
+layout: courserst
 lang: en
 alt_lang: fa
-alt_url: /teaching/rts-fa/schedule
+alt_url: /teaching/rts/schedule
 ---
 
 # ⏱ Real-Time Systems — 16-Week Plan (Detailed & Practical)

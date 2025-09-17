@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts-fa/memory-management
 course: "سیستم‌های بلادرنگ"
-order: 4
+order: 5
 mathjax: true
 use_math: true
 layout: courserst

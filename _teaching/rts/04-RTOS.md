@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts/task-management
 course: "Real-Time Systems"
-order: 3
+order: 4
 mathjax: true
 use_math: true
 layout: courserst

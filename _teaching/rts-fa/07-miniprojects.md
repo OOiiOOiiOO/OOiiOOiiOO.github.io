@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts-fa/projects
 course: "سیستم‌های بلادرنگ"
-order: 10
+order: 7
 mathjax: true
 use_math: true
 layout: courserst

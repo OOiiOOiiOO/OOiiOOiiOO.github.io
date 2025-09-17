@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts-fa/task-management
 course: "سیستم‌های بلادرنگ"
-order: 3
+order: 4
 mathjax: true
 use_math: true
 layout: courserst

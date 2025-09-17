@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts-fa/elevator-simulation
 course: "سیستم‌های بلادرنگ"
-order: 5
+order: 8
 mathjax: true
 use_math: true
 layout: courserst

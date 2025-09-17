@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts/core-schedulers
 course: "Real-Time Systems"
-order: 7
+order: 6
 mathjax: true
 use_math: true
 layout: courserst

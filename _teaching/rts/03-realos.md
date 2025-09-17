@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts/real-time-os
 course: "Real-Time Systems"
-order: 2
+order: 3
 mathjax: true
 use_math: true
 layout: courserst

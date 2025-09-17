@@ -4,7 +4,7 @@ collection: teaching
 type: "Course Module"
 permalink: /teaching/rts/elevator-simulation
 course: "Real-Time Systems"
-order: 5
+order: 9
 mathjax: true
 use_math: true
 layout: courserst
